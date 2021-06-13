@@ -1,0 +1,270 @@
+
+{
+  "eventGeneratedTimestamp": {
+    "long": 1622487411721
+  },
+  "eventPayload": {
+    "de.id.dataflow.audience.analytics.model.enriched.event.EventPayload": {
+      "experiment": {
+        "de.id.dataflow.audience.analytics.model.raw.event.Experiment": {
+          "experimentRoundNr": {
+            "long": 87
+          },
+          "experimentMetaData": null,
+          "experimentId": {
+            "string": "uiwi-wine-shop-mvp-merkur-genuss-v1_0"
+          },
+          "experimentVariantId": {
+            "string": "4"
+          }
+        }
+      },
+      "userAdblock": null,
+      "navigationTiming": null,
+      "userInteraction": null,
+      "userInsights": null
+    }
+  },
+  "eventType": {
+    "de.id.dataflow.audience.analytics.model.enriched.metadata.EventType": "elementActiveView"
+  },
+  "eventMetadata": {
+    "de.id.dataflow.audience.analytics.model.enriched.metadata.EventMetadata": {
+      "browser": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Browser": {
+          "browserRenderingEngineVersion": {
+            "string": "Unknown"
+          },
+          "browserCssVersion": {
+            "string": "3"
+          },
+          "browserRenderingEngineName": {
+            "string": "Blink"
+          },
+          "browserVersion": {
+            "string": "90.0"
+          },
+          "browserName": {
+            "string": "Chrome"
+          },
+          "browserType": {
+            "string": "Browser"
+          }
+        }
+      },
+      "pageViewId": {
+        "string": "4f5ad055-d0e1-59f1-d268-1f9a654f4f70-1622487391-1059390916"
+      },
+      "client": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Client": {
+          "clientId": {
+            "long": 268
+          },
+          "clientName": {
+            "string": "Merkur.de"
+          }
+        }
+      },
+      "campaign": null,
+      "location": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Location": {
+          "geoNameId": {
+            "long": 2875881
+          },
+          "country": {
+            "string": "Deutschland"
+          },
+          "accuracyRadius": {
+            "int": 10
+          },
+          "countryIsoCode": {
+            "string": "DEU"
+          },
+          "city": {
+            "string": "Lörrach"
+          },
+          "geoHash": {
+            "string": "u0mqysesje83"
+          },
+          "latitude": {
+            "double": 47.61819839477539
+          },
+          "postalCode": {
+            "string": "79540"
+          },
+          "districtType": {
+            "string": "Landkreis"
+          },
+          "districtAgs": {
+            "string": "08336"
+          },
+          "province": {
+            "string": "Baden-Württemberg"
+          },
+          "district": {
+            "string": "Lörrach"
+          },
+          "location": {
+            "string": "47.6182,7.6735"
+          },
+          "provinceIsoCode": {
+            "string": "BW"
+          },
+          "longitude": {
+            "double": 7.673500061035156
+          }
+        }
+      },
+      "page": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Page": {
+          "pageCount": null,
+          "pageNumber": null,
+          "publishingDate": null,
+          "recommendations": null,
+          "url": {
+            "string": "https:\/\/www.merkur.de\/leben\/genuss\/rezept-panna-cotta-torte-erdbeer-topping-lecker-kuchen-ohne-backen-90661352.html"
+          },
+          "paywallContent": null,
+          "pageType": {
+            "string": "ARTICLE_DETAIL"
+          },
+          "documentLabel": {
+            "string": ""
+          },
+          "seoHeadline": null,
+          "onlineId": {
+            "long": 90661352
+          },
+          "progress": null,
+          "category": {
+            "string": "Genuss"
+          },
+          "headline": null,
+          "categoryId": {
+            "string": "1137732"
+          },
+          "group": {
+            "string": "Artikeldetailseite"
+          },
+          "authors": null
+        }
+      },
+      "source": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Source": {
+          "referrerName": {
+            "string": "Google"
+          },
+          "referrer": {
+            "string": "android-app:\/\/com.google.android.googlequicksearchbox\/"
+          },
+          "viewer": null,
+          "referrerAuthority": null,
+          "referrerType": {
+            "string": "searchEngine"
+          },
+          "referrerFragment": null,
+          "referrerProtocol": {
+            "string": "android-app"
+          },
+          "referrerDomain": {
+            "string": "google.com"
+          },
+          "referrerQuery": null,
+          "referrerPath": {
+            "string": "\/"
+          }
+        }
+      },
+      "time": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Time": {
+          "date": {
+            "string": "2021-05-31"
+          },
+          "epochTimestamp": {
+            "long": 1622487419099
+          },
+          "partOfDay": {
+            "string": "EVENING"
+          },
+          "monthOfYear": {
+            "int": 5
+          },
+          "dayOfWeek": {
+            "string": "MONDAY"
+          },
+          "weekOfYear": {
+            "int": 22
+          },
+          "dayOfMonth": {
+            "int": 31
+          },
+          "year": {
+            "int": 2021
+          },
+          "weekend": {
+            "boolean": false
+          },
+          "hourOfDay": {
+            "int": 20
+          },
+          "season": {
+            "string": "SPRING"
+          },
+          "workingTime": {
+            "boolean": false
+          }
+        }
+      },
+      "user": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.User": {
+          "uid": {
+            "string": "not-available-1622487411719"
+          },
+          "passivelyCollectedUserFacts": null,
+          "newUser": null,
+          "userType": {
+            "string": ""
+          },
+          "activelyCollectedUserFacts": null
+        }
+      },
+      "device": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Device": {
+          "deviceType": {
+            "string": "Mobile Phone"
+          },
+          "screenWidth": null,
+          "screenHeight": null,
+          "windowHeight": null,
+          "channel": {
+            "string": "TOUCH_MOBILE"
+          },
+          "userAgent": {
+            "string": "Mozilla\/5.0 (Linux; Android 7.0; SLA-L22) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/90.0.4430.210 Mobile Safari\/537.36"
+          },
+          "devicePlatform": {
+            "string": "Android"
+          },
+          "deviceMaker": {
+            "string": "Unknown"
+          },
+          "devicePixelRatio": null,
+          "orientationInformation": null,
+          "colorSchemePreference": null,
+          "deviceBrandName": {
+            "string": "Unknown"
+          },
+          "windowWidth": null
+        }
+      },
+      "network": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Network": {
+          "clientIP": {
+            "string": "93.235.239.245"
+          }
+        }
+      }
+    }
+  },
+  "eventReceivedTimestamp": 1622487419099
+}

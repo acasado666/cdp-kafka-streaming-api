@@ -1,0 +1,271 @@
+{
+  "eventReceivedTimestamp": 1622487092811,
+  "eventGeneratedTimestamp": {
+    "long": 1622487082504
+  },
+  "eventType": {
+    "de.id.dataflow.audience.analytics.model.enriched.metadata.EventType": "elementActiveView"
+  },
+  "eventMetadata": {
+    "de.id.dataflow.audience.analytics.model.enriched.metadata.EventMetadata": {
+      "pageViewId": {
+        "string": "d8f06e4a-4524-abbb-2214-9b7045f46475-1622487041-1038082855"
+      },
+      "client": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Client": {
+          "clientId": {
+            "long": 268
+          },
+          "clientName": {
+            "string": "Merkur.de"
+          }
+        }
+      },
+      "page": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Page": {
+          "onlineId": {
+            "long": 90237811
+          },
+          "publishingDate": null,
+          "url": {
+            "string": "https://www.merkur.de/leben/karriere/urlaub-kurzarbeit-null-2021-corona-anspruch-regeln-job-mitarbeiter-zr-90237811.html"
+          },
+          "headline": null,
+          "seoHeadline": null,
+          "categoryId": {
+            "string": "1137728"
+          },
+          "category": {
+            "string": "Karriere"
+          },
+          "group": {
+            "string": "Artikeldetailseite"
+          },
+          "authors": null,
+          "pageType": {
+            "string": "ARTICLE_DETAIL"
+          },
+          "documentLabel": {
+            "string": "ZR"
+          },
+          "pageNumber": null,
+          "pageCount": null,
+          "progress": null,
+          "paywallContent": null,
+          "recommendations": null
+        }
+      },
+      "user": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.User": {
+          "uid": {
+            "string": "d8f06e4a-4524-abbb-2214-9b7045f46475"
+          },
+          "userType": {
+            "string": ""
+          },
+          "newUser": {
+            "boolean": true
+          },
+          "activelyCollectedUserFacts": null,
+          "passivelyCollectedUserFacts": null
+        }
+      },
+      "device": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Device": {
+          "userAgent": {
+            "string": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 OPR/76.0.4017.154"
+          },
+          "channel": {
+            "string": "CLICK_DESKTOP"
+          },
+          "devicePixelRatio": null,
+          "screenWidth": null,
+          "screenHeight": null,
+          "windowWidth": null,
+          "windowHeight": null,
+          "orientationInformation": null,
+          "colorSchemePreference": null,
+          "deviceType": {
+            "string": "Desktop"
+          },
+          "devicePlatform": {
+            "string": "Win10"
+          },
+          "deviceMaker": {
+            "string": "Unknown"
+          },
+          "deviceBrandName": {
+            "string": "Unknown"
+          }
+        }
+      },
+      "network": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Network": {
+          "clientIP": {
+            "string": "88.133.122.31"
+          }
+        }
+      },
+      "source": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Source": {
+          "referrer": {
+            "string": "https://www.google.com/"
+          },
+          "referrerDomain": {
+            "string": "www.google.com"
+          },
+          "viewer": null,
+          "referrerType": {
+            "string": "searchEngine"
+          },
+          "referrerName": {
+            "string": "Google"
+          },
+          "referrerProtocol": {
+            "string": "https"
+          },
+          "referrerAuthority": null,
+          "referrerPath": {
+            "string": "/"
+          },
+          "referrerQuery": null,
+          "referrerFragment": null
+        }
+      },
+      "campaign": null,
+      "time": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Time": {
+          "epochTimestamp": {
+            "long": 1622487092811
+          },
+          "date": {
+            "string": "2021-05-31"
+          },
+          "hourOfDay": {
+            "int": 20
+          },
+          "dayOfWeek": {
+            "string": "MONDAY"
+          },
+          "dayOfMonth": {
+            "int": 31
+          },
+          "partOfDay": {
+            "string": "EVENING"
+          },
+          "weekOfYear": {
+            "int": 22
+          },
+          "monthOfYear": {
+            "int": 5
+          },
+          "year": {
+            "int": 2021
+          },
+          "season": {
+            "string": "SPRING"
+          },
+          "workingTime": {
+            "boolean": false
+          },
+          "weekend": {
+            "boolean": false
+          }
+        }
+      },
+      "location": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Location": {
+          "geoNameId": {
+            "long": 2862348
+          },
+          "location": {
+            "string": "49.1997,12.267"
+          },
+          "latitude": {
+            "double": 49.19969940185547
+          },
+          "longitude": {
+            "double": 12.267000198364258
+          },
+          "accuracyRadius": {
+            "int": 50
+          },
+          "geoHash": {
+            "string": "u28xzhs91bdq"
+          },
+          "countryIsoCode": {
+            "string": "DEU"
+          },
+          "country": {
+            "string": "Deutschland"
+          },
+          "provinceIsoCode": {
+            "string": "BY"
+          },
+          "province": {
+            "string": "Bayern (Freistaat)"
+          },
+          "district": {
+            "string": "Schwandorf"
+          },
+          "districtType": {
+            "string": "Landkreis"
+          },
+          "districtAgs": {
+            "string": "09376"
+          },
+          "postalCode": {
+            "string": "93149"
+          },
+          "city": {
+            "string": "Nittenau"
+          }
+        }
+      },
+      "browser": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Browser": {
+          "browserName": {
+            "string": "Opera"
+          },
+          "browserType": {
+            "string": "Browser"
+          },
+          "browserVersion": {
+            "string": "0.0"
+          },
+          "browserRenderingEngineName": {
+            "string": "Unknown"
+          },
+          "browserRenderingEngineVersion": {
+            "string": "Unknown"
+          },
+          "browserCssVersion": {
+            "string": "0"
+          }
+        }
+      }
+    }
+  },
+  "eventPayload": {
+    "de.id.dataflow.audience.analytics.model.enriched.event.EventPayload": {
+      "userAdblock": null,
+      "userInteraction": null,
+      "userInsights": null,
+      "navigationTiming": null,
+      "experiment": {
+        "de.id.dataflow.audience.analytics.model.raw.event.Experiment": {
+          "experimentId": {
+            "string": "uiwi-wine-shop-mvp-merkur-karriere-v1_0"
+          },
+          "experimentVariantId": {
+            "string": "7"
+          },
+          "experimentRoundNr": {
+            "long": 44
+          },
+          "experimentMetaData": null
+        }
+      }
+    }
+  }
+}

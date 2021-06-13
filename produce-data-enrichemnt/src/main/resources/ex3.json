@@ -1,0 +1,271 @@
+{
+  "eventReceivedTimestamp": 1622487953827,
+  "eventGeneratedTimestamp": {
+    "long": 1622488120971
+  },
+  "eventType": {
+    "de.id.dataflow.audience.analytics.model.enriched.metadata.EventType": "elementActiveView"
+  },
+  "eventMetadata": {
+    "de.id.dataflow.audience.analytics.model.enriched.metadata.EventMetadata": {
+      "pageViewId": {
+        "string": "b81a1d76-c3e1-0ea2-8845-25b58acaba9b-1622487894-1056978375"
+      },
+      "client": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Client": {
+          "clientId": {
+            "long": 268
+          },
+          "clientName": {
+            "string": "Merkur.de"
+          }
+        }
+      },
+      "page": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Page": {
+          "onlineId": {
+            "long": 9717184
+          },
+          "publishingDate": null,
+          "url": {
+            "string": "https://www.merkur.de/leben/karriere/daran-erkennen-sie-chef-wirklich-zr-9717184.html"
+          },
+          "headline": null,
+          "seoHeadline": null,
+          "categoryId": {
+            "string": "1137728"
+          },
+          "category": {
+            "string": "Karriere"
+          },
+          "group": {
+            "string": "Artikeldetailseite"
+          },
+          "authors": null,
+          "pageType": {
+            "string": "ARTICLE_DETAIL"
+          },
+          "documentLabel": {
+            "string": "ZR"
+          },
+          "pageNumber": null,
+          "pageCount": null,
+          "progress": null,
+          "paywallContent": null,
+          "recommendations": null
+        }
+      },
+      "user": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.User": {
+          "uid": {
+            "string": "b81a1d76-c3e1-0ea2-8845-25b58acaba9b"
+          },
+          "userType": {
+            "string": ""
+          },
+          "newUser": {
+            "boolean": false
+          },
+          "activelyCollectedUserFacts": null,
+          "passivelyCollectedUserFacts": null
+        }
+      },
+      "device": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Device": {
+          "userAgent": {
+            "string": "Mozilla/5.0 (Linux; Android 10; POT-LX1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Mobile Safari/537.36"
+          },
+          "channel": {
+            "string": "TOUCH_MOBILE"
+          },
+          "devicePixelRatio": null,
+          "screenWidth": null,
+          "screenHeight": null,
+          "windowWidth": null,
+          "windowHeight": null,
+          "orientationInformation": null,
+          "colorSchemePreference": null,
+          "deviceType": {
+            "string": "Mobile Phone"
+          },
+          "devicePlatform": {
+            "string": "Android"
+          },
+          "deviceMaker": {
+            "string": "Unknown"
+          },
+          "deviceBrandName": {
+            "string": "Unknown"
+          }
+        }
+      },
+      "network": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Network": {
+          "clientIP": {
+            "string": "87.149.114.215"
+          }
+        }
+      },
+      "source": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Source": {
+          "referrer": {
+            "string": "https://www.google.com/"
+          },
+          "referrerDomain": {
+            "string": "www.google.com"
+          },
+          "viewer": null,
+          "referrerType": {
+            "string": "searchEngine"
+          },
+          "referrerName": {
+            "string": "Google"
+          },
+          "referrerProtocol": {
+            "string": "https"
+          },
+          "referrerAuthority": null,
+          "referrerPath": {
+            "string": "/"
+          },
+          "referrerQuery": null,
+          "referrerFragment": null
+        }
+      },
+      "campaign": null,
+      "time": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Time": {
+          "epochTimestamp": {
+            "long": 1622487953827
+          },
+          "date": {
+            "string": "2021-05-31"
+          },
+          "hourOfDay": {
+            "int": 21
+          },
+          "dayOfWeek": {
+            "string": "MONDAY"
+          },
+          "dayOfMonth": {
+            "int": 31
+          },
+          "partOfDay": {
+            "string": "EVENING"
+          },
+          "weekOfYear": {
+            "int": 22
+          },
+          "monthOfYear": {
+            "int": 5
+          },
+          "year": {
+            "int": 2021
+          },
+          "season": {
+            "string": "SPRING"
+          },
+          "workingTime": {
+            "boolean": false
+          },
+          "weekend": {
+            "boolean": false
+          }
+        }
+      },
+      "location": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Location": {
+          "geoNameId": {
+            "long": 2891258
+          },
+          "location": {
+            "string": "51.5801,6.2327"
+          },
+          "latitude": {
+            "double": 51.580101013183594
+          },
+          "longitude": {
+            "double": 6.232699871063232
+          },
+          "accuracyRadius": {
+            "int": 10
+          },
+          "geoHash": {
+            "string": "u1hmmvfeb7tz"
+          },
+          "countryIsoCode": {
+            "string": "DEU"
+          },
+          "country": {
+            "string": "Deutschland"
+          },
+          "provinceIsoCode": {
+            "string": "NW"
+          },
+          "province": {
+            "string": "Nordrhein-Westfalen"
+          },
+          "district": {
+            "string": "Kleve"
+          },
+          "districtType": {
+            "string": "Kreis"
+          },
+          "districtAgs": {
+            "string": "05154"
+          },
+          "postalCode": {
+            "string": "47623"
+          },
+          "city": {
+            "string": "Kevelaer"
+          }
+        }
+      },
+      "browser": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Browser": {
+          "browserName": {
+            "string": "Chrome"
+          },
+          "browserType": {
+            "string": "Browser"
+          },
+          "browserVersion": {
+            "string": "91.0"
+          },
+          "browserRenderingEngineName": {
+            "string": "Blink"
+          },
+          "browserRenderingEngineVersion": {
+            "string": "Unknown"
+          },
+          "browserCssVersion": {
+            "string": "3"
+          }
+        }
+      }
+    }
+  },
+  "eventPayload": {
+    "de.id.dataflow.audience.analytics.model.enriched.event.EventPayload": {
+      "userAdblock": null,
+      "userInteraction": null,
+      "userInsights": null,
+      "navigationTiming": null,
+      "experiment": {
+        "de.id.dataflow.audience.analytics.model.raw.event.Experiment": {
+          "experimentId": {
+            "string": "uiwi-wine-shop-mvp-merkur-karriere-v1_0"
+          },
+          "experimentVariantId": {
+            "string": "2"
+          },
+          "experimentRoundNr": {
+            "long": 44
+          },
+          "experimentMetaData": null
+        }
+      }
+    }
+  }
+}

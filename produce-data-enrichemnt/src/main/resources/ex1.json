@@ -1,0 +1,269 @@
+{
+  "eventReceivedTimestamp": 1622487419099,
+  "eventGeneratedTimestamp": {
+    "long": 1622487411721
+  },
+  "eventType": {
+    "de.id.dataflow.audience.analytics.model.enriched.metadata.EventType": "elementActiveView"
+  },
+  "eventMetadata": {
+    "de.id.dataflow.audience.analytics.model.enriched.metadata.EventMetadata": {
+      "pageViewId": {
+        "string": "4f5ad055-d0e1-59f1-d268-1f9a654f4f70-1622487391-1059390916"
+      },
+      "client": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Client": {
+          "clientId": {
+            "long": 268
+          },
+          "clientName": {
+            "string": "Merkur.de"
+          }
+        }
+      },
+      "page": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Page": {
+          "onlineId": {
+            "long": 90661352
+          },
+          "publishingDate": null,
+          "url": {
+            "string": "https://www.merkur.de/leben/genuss/rezept-panna-cotta-torte-erdbeer-topping-lecker-kuchen-ohne-backen-90661352.html"
+          },
+          "headline": null,
+          "seoHeadline": null,
+          "categoryId": {
+            "string": "1137732"
+          },
+          "category": {
+            "string": "Genuss"
+          },
+          "group": {
+            "string": "Artikeldetailseite"
+          },
+          "authors": null,
+          "pageType": {
+            "string": "ARTICLE_DETAIL"
+          },
+          "documentLabel": {
+            "string": ""
+          },
+          "pageNumber": null,
+          "pageCount": null,
+          "progress": null,
+          "paywallContent": null,
+          "recommendations": null
+        }
+      },
+      "user": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.User": {
+          "uid": {
+            "string": "not-available-1622487411719"
+          },
+          "userType": {
+            "string": ""
+          },
+          "newUser": null,
+          "activelyCollectedUserFacts": null,
+          "passivelyCollectedUserFacts": null
+        }
+      },
+      "device": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Device": {
+          "userAgent": {
+            "string": "Mozilla/5.0 (Linux; Android 7.0; SLA-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.210 Mobile Safari/537.36"
+          },
+          "channel": {
+            "string": "TOUCH_MOBILE"
+          },
+          "devicePixelRatio": null,
+          "screenWidth": null,
+          "screenHeight": null,
+          "windowWidth": null,
+          "windowHeight": null,
+          "orientationInformation": null,
+          "colorSchemePreference": null,
+          "deviceType": {
+            "string": "Mobile Phone"
+          },
+          "devicePlatform": {
+            "string": "Android"
+          },
+          "deviceMaker": {
+            "string": "Unknown"
+          },
+          "deviceBrandName": {
+            "string": "Unknown"
+          }
+        }
+      },
+      "network": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Network": {
+          "clientIP": {
+            "string": "93.235.239.245"
+          }
+        }
+      },
+      "source": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Source": {
+          "referrer": {
+            "string": "android-app://com.google.android.googlequicksearchbox/"
+          },
+          "referrerDomain": {
+            "string": "google.com"
+          },
+          "viewer": null,
+          "referrerType": {
+            "string": "searchEngine"
+          },
+          "referrerName": {
+            "string": "Google"
+          },
+          "referrerProtocol": {
+            "string": "android-app"
+          },
+          "referrerAuthority": null,
+          "referrerPath": {
+            "string": "/"
+          },
+          "referrerQuery": null,
+          "referrerFragment": null
+        }
+      },
+      "campaign": null,
+      "time": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Time": {
+          "epochTimestamp": {
+            "long": 1622487419099
+          },
+          "date": {
+            "string": "2021-05-31"
+          },
+          "hourOfDay": {
+            "int": 20
+          },
+          "dayOfWeek": {
+            "string": "MONDAY"
+          },
+          "dayOfMonth": {
+            "int": 31
+          },
+          "partOfDay": {
+            "string": "EVENING"
+          },
+          "weekOfYear": {
+            "int": 22
+          },
+          "monthOfYear": {
+            "int": 5
+          },
+          "year": {
+            "int": 2021
+          },
+          "season": {
+            "string": "SPRING"
+          },
+          "workingTime": {
+            "boolean": false
+          },
+          "weekend": {
+            "boolean": false
+          }
+        }
+      },
+      "location": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Location": {
+          "geoNameId": {
+            "long": 2875881
+          },
+          "location": {
+            "string": "47.6182,7.6735"
+          },
+          "latitude": {
+            "double": 47.61819839477539
+          },
+          "longitude": {
+            "double": 7.673500061035156
+          },
+          "accuracyRadius": {
+            "int": 10
+          },
+          "geoHash": {
+            "string": "u0mqysesje83"
+          },
+          "countryIsoCode": {
+            "string": "DEU"
+          },
+          "country": {
+            "string": "Deutschland"
+          },
+          "provinceIsoCode": {
+            "string": "BW"
+          },
+          "province": {
+            "string": "Baden-Württemberg"
+          },
+          "district": {
+            "string": "Lörrach"
+          },
+          "districtType": {
+            "string": "Landkreis"
+          },
+          "districtAgs": {
+            "string": "08336"
+          },
+          "postalCode": {
+            "string": "79540"
+          },
+          "city": {
+            "string": "Lörrach"
+          }
+        }
+      },
+      "browser": {
+        "de.id.dataflow.audience.analytics.model.enriched.metadata.Browser": {
+          "browserName": {
+            "string": "Chrome"
+          },
+          "browserType": {
+            "string": "Browser"
+          },
+          "browserVersion": {
+            "string": "90.0"
+          },
+          "browserRenderingEngineName": {
+            "string": "Blink"
+          },
+          "browserRenderingEngineVersion": {
+            "string": "Unknown"
+          },
+          "browserCssVersion": {
+            "string": "3"
+          }
+        }
+      }
+    }
+  },
+  "eventPayload": {
+    "de.id.dataflow.audience.analytics.model.enriched.event.EventPayload": {
+      "userAdblock": null,
+      "userInteraction": null,
+      "userInsights": null,
+      "navigationTiming": null,
+      "experiment": {
+        "de.id.dataflow.audience.analytics.model.raw.event.Experiment": {
+          "experimentId": {
+            "string": "uiwi-wine-shop-mvp-merkur-genuss-v1_0"
+          },
+          "experimentVariantId": {
+            "string": "4"
+          },
+          "experimentRoundNr": {
+            "long": 87
+          },
+          "experimentMetaData": null
+        }
+      }
+    }
+  }
+}
