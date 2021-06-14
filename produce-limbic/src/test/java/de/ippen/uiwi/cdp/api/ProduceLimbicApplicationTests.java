@@ -1,12 +1,9 @@
 package de.ippen.uiwi.cdp.api;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
-
-@SpringBootTest
+//@SpringBootTest
 class ProduceLimbicApplicationTests {
 
-    @Test
+    //    @Test
     void contextLoads() {
     }
 

@@ -1,0 +1,49 @@
+{
+  "experimentName": "uiwi-wine-shop-mvp-merkur-wohnen-v1_0",
+  "experimentSettings": {
+    "general":{
+      "clientId": "268"
+    },
+    "optimization": {
+      "optimizerSettings": {
+        "serviceType": "FAXSimpleBanditOptimizerService",
+        "configFaxSimpleBandit": {
+          "bayesianAlgorithmOn": true,
+          "batchSize": 10000,
+          "abTestModeOn": false
+        }
+      },
+      "analyticsProviderSettings": {
+        "serviceType": "DruidCtrProviderService",
+        "trackingSystem": "druid_visibility_tracking"
+      }
+    },
+    "content": {
+      "contentProvider": "StaticFakeTeaserProvider"
+    },
+    "contentMVP": {
+      "contentProviderMVP": "StaticFakeMVPProvider"
+    },
+    "design": {
+      "baseTemplate": "inarticle/mvpWohnenTpl.html"
+    },
+    "recommendation": {
+      "blacklistArticles": ["13544793","13534374","13543994","13544321",",13544309"],
+      "blacklistCategories": []
+    }
+  },
+  "variantsSearchSpace" : {
+    "design": {
+      "backgroundAppearance":      ["transparent"],
+      "iconsType":                 ["arrow"],
+      "pictureAppearance":         ["with"],
+      "headlineColor":             ["black"],
+      "designImageTypeAppearance": ["Limbic-Type-A-Pattern-1", "Limbic-Type-A-Pattern-2", "Limbic-Type-A-Pattern-3", "Limbic-Type-B-Pattern-1", "Limbic-Type-B-Pattern-2", "Limbic-Type-B-Pattern-3", "Limbic-Type-C-Pattern-1", "Limbic-Type-C-Pattern-2", "Limbic-Type-C-Pattern-3", "Limbic-Type-D-Pattern-1"],
+      "itemSize":                  {"min": 1, "max": 1, "interval": 1},
+      "summaryTextLength":         {"min": 1, "max": 1, "interval": 1}
+    },
+    "externExecution": {
+      "position":                 {"min": 8, "max": 8, "interval": 1}
+    }
+  }
+}
